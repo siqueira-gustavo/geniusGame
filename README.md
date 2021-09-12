@@ -13,9 +13,7 @@ Simples jogo de memória, cujo objetivo é desafiar os participantes a acertarem
 Projeto realizado para o curso de **JavaScript Game Developer** da **Digital Innovation One**.
 
 
-{% hint style="info" %}
-É necessário adicionar o tempo do setTimeout da função lightColor. Faltou colocar _number_ no final. Tem um Pull Request no [github da Gabriela](https://github.com/SpruceGabriela/genesis-dio) que identificou isso e corrigiu isso.
-{% endhint %}
+>É necessário adicionar o tempo do setTimeout da função lightColor. Faltou colocar _number_ no final. Tem um Pull Request no [github da Gabriela](https://github.com/SpruceGabriela/genesis-dio) que identificou isso e corrigiu isso.
 
 ```javascript
 // acende a próxima cor
