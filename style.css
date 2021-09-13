@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Glory', sans-serif;
     background: linear-gradient(to left top, #20b69a, rgb(200, 255, 239));
 }
 
@@ -50,4 +51,67 @@ body {
 
 .selected {
     opacity: 0.4;
+}
+
+#inicio {
+    font-weight: bolder;
+    box-shadow: black 5px 5px 10px;
+    border: 5px white solid;
+	width:350px;
+	height:250px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+	/* background-color:whitesmoke; */
+	padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, red, yellow, green, blue);
+}
+
+p {
+    margin: 5px;
+}
+
+.fim {
+    font-weight: bolder;
+    box-shadow: black 5px 5px 10px;
+    border: 5px white solid;
+	width:350px;
+	height:250px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+	/* background-color:whitesmoke; */
+	padding:10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, red, yellow, green, blue);
+}
+
+input {
+    background-color: whitesmoke; /* Green */
+    border: 10px;
+    border-radius: 5px;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input:hover {
+    opacity: 0.5;
+}
+
+#placar {
+	width: 450px;
+	height: 50px;
+	position: absolute;
+	left: 5px;
+	top: 590px;
+}
+
+h2 {
+	font-family:Titulo;
+	font-size:20px;
+	color:#FFF
 }

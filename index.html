@@ -1,21 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@600&display=swap" rel="stylesheet">
+
     <title>Genesis</title>
 </head>
 <body>
-    <div class="main-game">
-        <div class="genius">
-            <div class="blue"></div>
-            <div class="yellow"></div>
-            <div class="red"></div>
-            <div class="green"></div>
+    <div class="container">
+        <div class="main-game">
+            <div id="inicio">
+                <h1> Genius Game </h1> <!-- div inicio !-->
+                <div class="texto">
+                    <p>Simples jogo de memória, cujo objetivo é desafiar 
+                        os participantes a acertarem as diversas sequências 
+                        de cores propostas no jogo.<br>
+                        São quatro cores: verde, amarelo, azul e vermelho, 
+                        que formam sequências aleatórias, que vão aumentando 
+                        de dificuldade conforme o andamento do jogo.
+                    </p>
+                </div>
+                <input type="button" value="Clique aqui para iniciar!!" onclick="start()"/>
         </div>
     </div>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
 </body>
 </html>
