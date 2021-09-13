@@ -105,7 +105,6 @@ function start(){
         nextLevel();
     }
     
-    
     // eventos de clique para as cores
     green.onclick = () => click(0);
     red.onclick = () => click(1);
