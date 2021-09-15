@@ -1,4 +1,4 @@
-function start(){
+function start() {
     $("#inicio").hide();
 
     $(".main-game").append("<div class='genius'></div>");
@@ -10,11 +10,6 @@ function start(){
     let order = [];
     let clickedOrder = [];
     let score = 0;
-    
-    // 0 - verde
-    // 1 - vermelho
-    // 2 - amarelo
-    // 3 - azul
     
     const blue = document.querySelector('.blue');
     const red = document.querySelector('.red');
@@ -90,7 +85,6 @@ function start(){
     
     // função game over
     let gameOver = () => {
-        // alert(`Pontuação: ${score}!\nVocê perdeu o jogo!\nClique em OK para iniciar um novo jogo`);
         $(".genius").remove();
         $(".main-game").append("<div class='fim'></div>");
         $(".fim").html("<h1> Game Over </h1><p>Sua pontuação foi: " + score + "</p>" + "<br><br><div id='reinicia' onClick=reiniciaJogo()><input type='button' value='Jogar Novamente'/></div>");
