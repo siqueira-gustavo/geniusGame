@@ -4,6 +4,10 @@ Simples jogo de memória, cujo objetivo é desafiar os participantes a acertarem
 ## Como jogar:
 * Clique nas cores conforme as sequências apresentadas.
 
+## Como acessar:
+
+[Clique aqui](https://siqueira-gustavo.github.io/geniusGame) para acessar.
+
 ## Linguagens utilizadas
 * HTML;
 * Javascript; e
